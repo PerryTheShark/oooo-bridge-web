@@ -1,3 +1,12 @@
+<script setup lang="ts">
+    import { OContainer, OHeader, OContent } from '@/components/OContainer'
+    import WalletConnectButton from 'D:/Fatpay/oooo-bridge-web/src/components/layout/WalletConnectButton.vue'
+    import PageLoading from 'D:/Fatpay/oooo-bridge-web/src/components/PageLoading.vue'
+    import { useConfig } from 'D:/Fatpay/oooo-bridge-web/src/pages/bridge/hooks/use-config.ts'
+
+    const { initializing } = useConfig()
+</script>
+
 <template>
     <OContainer>
             
@@ -8,15 +17,15 @@
                 </div>
                 
             </OHeader>
+            <PageLoading v-if="initializing" />
+            <OContent v-else>
+                <h1>Daily reward</h1>
+            </OContent>
 
     </OContainer> 
 </template>
 
-<script setup lang="ts">
-    import { OContainer, OHeader } from '@/components/OContainer'
-    import WalletConnectButton from 'D:/Fatpay/oooo-bridge-web/src/components/layout/WalletConnectButton.vue'
 
-</script>
 
 <style scoped>
 h1 {
