@@ -1,0 +1,68 @@
+{
+    "quests": [
+      {
+        "title": "BRIDGE TO GET YOUR EXCLUSIVE BADGE ON SCROLL",
+        "subtitle": "REWARDS: oooo BADGES on SCROLL, o-VOUCHER PACK, UNLIMITED 8 Goooo & 80 Lumoz Points for EACH TRANSACTION",
+        "link": "https://example.com/task1",
+        "icon": "D:/Fatpay/oooo-bridge-web/src/assets/images/logo/oooo.png",
+        "ShowStartDate": "2023-12-01T00:00:00Z",
+        "ShowEndDate": "2023-12-31T23:59:59Z",
+        "startDate": "2023-12-01T00:00:00Z",
+        "endDate": "2023-12-31T23:59:59Z",
+        "tags": [
+          {
+            "icon": "https://example.com/tags/tag1-icon.png",
+            "name": "+8 Goooo",
+            "background": "#28A745"
+          },
+          {
+            "icon": "https://example.com/tags/tag2-icon.png",
+            "ShowStartDate": "2023-12-01T00:00:00Z",
+            "ShowEndDate": "2023-12-31T23:59:59Z",
+            "startDate": "2023-12-01T00:00:00Z",
+            "endDate": "2023-12-31T23:59:59Z",
+            "name": "+80 Lumoz Points",
+            "background": "https://example.com/tags/tag2-bg.png"
+          }
+        ],
+        "sortValue": 5
+      },
+      {
+        "title": "COMPLETE MACARON EVENT TO WIN Goooo AND o-VOUCHER",
+        "subtitle": "REWARDS: 2X MACARON DEFI POINTS, 8 Goooo, $20 o-VOUCHER PACK",
+        "link": "https://example.com/task2",
+        "icon": "https://example.com/icons/icon2.png",
+        "ShowStartDate": "2023-12-01T00:00:00Z",
+        "ShowEndDate": "2023-12-31T23:59:59Z",
+        "startDate": "2023-12-01T00:00:00Z",
+        "endDate": "2023-12-31T23:59:59Z",
+        "tags": [
+          {
+            "icon": "https://example.com/tags/tag3-icon.png",
+            "name": "+8 Goooo",
+            "background": "https://example.com/tags/tag3-bg.png"
+          }
+        ],
+        "sortValue": 2
+      },
+      {
+        "title": "MISSION X LAYER WITH oooo TO SHARE PRIZE POOL!",
+        "subtitle": "REWARDS: 8 Goooo + $20 o-VOUCHER PACK",
+        "link": "https://example.com/task3",
+        "icon": "https://example.com/icons/icon3.png",
+        "tags": [
+          {
+            "icon": "https://example.com/tags/tag1-icon.png",
+            "name": "+8 Goooo",
+            "background": "https://example.com/tags/tag1-bg.png"
+          },
+          {
+            "icon": "https://example.com/tags/tag4-icon.png",
+            "name": "$20 o-VOUCHER PACK",
+            "background": "https://example.com/tags/tag4-bg.png"
+          }
+        ],
+        "sortValue": 3
+      }
+    ]
+  }

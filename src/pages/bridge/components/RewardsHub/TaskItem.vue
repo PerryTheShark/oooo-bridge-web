@@ -11,7 +11,7 @@ defineProps<{
   image?: string;
   title?: string;
   description?: string;
-  hints?: string[];
+  hints?: Array<{ icon: string, name: string, background: string }>;
   succeed?: boolean;
   dateText?: string;
 }>();
@@ -51,7 +51,7 @@ const { address } = useEVMWallet();
               :key="index"
               class="border border-[#8a3f0e] text-[#8a3f0e] bg-[#bf8a65] px-[8px] py-[4px] rounded-full"
             >
-              {{ item }}
+              {{ item.name }}
             </div>
           </div>
           <Button

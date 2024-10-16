@@ -28,10 +28,13 @@ const openDialog = () => {
 const closeDialog = () => {
   showDialog.value = false;
 };
+
+const gemMultiplier = ref(5); // Dynamic value for gems
+const consecutiveBonus = ref(2); // Dynamic value for consecutive bonus
 </script>
 
 <template>
-<div class="flex justify-between space-x-2 mt-8">
+<div class="flex justify-between space-x-2 mt-8 mb-8">
   <div
     v-for="(day, index) in days"
     :key="index"
@@ -86,6 +89,15 @@ const closeDialog = () => {
       {{ day.label }}
     </div>
   </div>
+</div>
+
+<div class="flex items-center p-4 rounded-lg bg-gradient-to-r from-purple-500 via-pink-400 to-orange-500 text-white">
+      <span class="text-xl mr-2">🔔</span>
+      <span class="text-sm">
+        Check in today for 
+        <strong class="font-bold">{{ gemMultiplier }}x Gems</strong> if there's any bridging!
+        Earn <strong class="font-bold">{{ consecutiveBonus }}x Gems</strong> for each consecutive daily check-in.
+      </span>
 </div>
 
   <div
